@@ -17,8 +17,3 @@ bindkey '\ez' select-word-style
 
 bindkey '\ef' forward-word
 bindkey '\eb' backward-word
-
-alias sb="mosh devvm2716.vll0.facebook.com -- tmux a"
-alias dev="mosh devbig937.prn2.facebook.com -- tmux a"
-
-export PATH=~/.nimble/bin:/opt/ffmpeg/bin:~/bin:$PATH
