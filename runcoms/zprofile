@@ -68,10 +68,6 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/private.zsh" ]]; then
   source "${ZDOTDIR:-$HOME}/.zprezto/private.zsh"
 fi
 
-if [[ ! -z "$DEVSERVER" ]]; then
-   alias devssh="mosh $DEVSERVER -- tmux a"
-fi
-
 #
 # Less
 #
