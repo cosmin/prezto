@@ -57,6 +57,7 @@ typeset -gU cdpath fpath mailpath path
 path=(
   $HOME/{,s}bin(N)
   $HOME/.local/bin(N)
+  $HOMEBREW_PATH/opt/rustup/bin(N)  # rustup is keg-only; its cargo/rustc proxies live here
   $HOMEBREW_PATH/{,s}bin(N)
   /opt/local/{,s}bin(N)
   /usr/local/{,s}bin(N)
