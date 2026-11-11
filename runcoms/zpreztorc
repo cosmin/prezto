@@ -44,6 +44,8 @@ zstyle ':prezto:load' pmodule \
   'homebrew' \
   'osx' \
   'python' \
+  'mise' \
+  'jenv' \
   'prompt'
 
 #

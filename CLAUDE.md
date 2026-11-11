@@ -11,13 +11,13 @@ This is a personal fork of [sorin-ionescu/prezto](https://github.com/sorin-iones
 
 Custom commits on top of upstream/master:
 
-- Module selection: git, docker, homebrew, osx, python modules enabled
+- Module selection: git, docker, homebrew, osx, python, mise, jenv modules enabled
 - Prompt theme: garrett instead of the default sorin
 - Editor: emacsclient with fallback to emacs
 - iTerm2 tmux integration enabled
 - Keybindings: emacs-style word navigation (forward-word, backward-word, select-word-style)
 - Architecture aliases: `arm` and `intel` for switching between arm64 and x86_64
-- pyenv initialization if installed
+- `mise` and `jenv` modules (not in upstream): activate mise / init jenv with the `export` plugin, if installed
 - Homebrew path detection (/opt/hb vs /opt/homebrew)
 - private.zsh sourcing for machine-specific configuration
 - Virtualenv auto-initialize disabled
@@ -31,6 +31,7 @@ Custom commits on top of upstream/master:
 - `runcoms/` — Zsh dotfiles (.zshrc, .zprofile, .zpreztorc, etc.) that get symlinked into `$HOME` by prezto's install script
 - `modules/` — Prezto modules (completion, prompt, git, etc.)
 - `modules/prompt/functions/prompt_garrett_setup` — Custom garrett prompt theme
+- `modules/mise`, `modules/jenv` — Custom modules for tools upstream has no module for. Tool init belongs in a module, not in `runcoms/zshrc`.
 
 ## Usage
 
